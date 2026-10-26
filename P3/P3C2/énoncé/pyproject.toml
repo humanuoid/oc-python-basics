@@ -1,0 +1,20 @@
+[project]
+name = "p3c2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "HuManuOïd", email = "113236459+humanuoid@users.noreply.github.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "bs4>=0.0.2",
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+p3c2 = "p3c2:main"
+
+[build-system]
+requires = ["uv_build>=0.12.16,<0.13.0"]
+build-backend = "uv_build"
